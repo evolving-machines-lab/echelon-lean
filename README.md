@@ -68,6 +68,7 @@ not part of this repository.
 - `Pilot/O4_Certificate.lean`: the pilot result cited in §4.5 (imports only Mathlib).
 - `ComparatorChallenges/`: the seven pinned statements for `lake comparator` (§4.3); see
   [`COMPARATOR.md`](COMPARATOR.md).
+- `LICENSE`: Apache-2.0 for this repository's code.
 - `THIRD_PARTY_LICENSES/`: license of third-party code (see below).
 
 ## Versions
@@ -100,3 +101,7 @@ for c in ComparatorChallenges/*.json; do lake comparator --config "$c"; done
 adapted, from OpenAI's Lean repository (https://github.com/openai/math), which is licensed under the
 Apache License, Version 2.0. Its license text is in `THIRD_PARTY_LICENSES/openai-math-Apache-2.0.txt`,
 and the file's docstring records the source and the changes.
+
+## License
+
+Apache-2.0 (code); the technical report is CC BY 4.0. See [`LICENSE`](LICENSE).
