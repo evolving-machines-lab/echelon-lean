@@ -1,0 +1,14 @@
+{
+  "challenge_module": "ComparatorChallenges.MuonVsSVD",
+  "solution_module": "FastMuon.MuonVsSVD",
+  "theorem_names": [
+    "FastMuon.MuonVsSVD.claimed_contraction_false",
+    "FastMuon.MuonVsSVD.ns_vs_svd"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

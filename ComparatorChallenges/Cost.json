@@ -1,0 +1,14 @@
+{
+  "challenge_module": "ComparatorChallenges.Cost",
+  "solution_module": "FastMuon.Cost",
+  "theorem_names": [
+    "FastMuon.Cost.speedup",
+    "FastMuon.Cost.speedup_4096_16"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

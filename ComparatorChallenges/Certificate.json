@@ -1,0 +1,13 @@
+{
+  "challenge_module": "ComparatorChallenges.Certificate",
+  "solution_module": "FastMuon.Certificate",
+  "theorem_names": [
+    "FastMuon.Geometry.muon_family_rate"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

@@ -1,0 +1,37 @@
+import FastMuon
+open FastMuon
+#print axioms FastMuon.Geometry.muon_family_rate
+#print axioms FastMuon.Geometry.avg_bound
+#print axioms FastMuon.Geometry.momentum_error
+#print axioms FastMuon.Geometry.certificate_transfer
+#print axioms FastMuon.HeadTail.gram_split
+#print axioms FastMuon.HeadTail.htDir_norm_le_sqrt_two
+#print axioms FastMuon.HeadTail.align
+#print axioms FastMuon.HeadTail.align_nonneg
+#print axioms FastMuon.HeadTail.head_isometry
+#print axioms FastMuon.Cost.speedup
+#print axioms FastMuon.Cost.speedup_unbounded
+#print axioms FastMuon.Cost.speedup_4096_16
+#print axioms FastMuon.NSPoly.nsP_iter_ge
+#print axioms FastMuon.NSPoly.muon_five_steps
+#print axioms FastMuon.Spectral.geometry
+#print axioms FastMuon.Spectral.nuc_frame_le
+#print axioms FastMuon.Spectral.ht_alignment_lower
+#print axioms FastMuon.Spectral.ht_muon_rate
+#print axioms FastMuon.MuonVsSVD.claimed_contraction_false
+#print axioms FastMuon.MuonVsSVD.claimed_five_step_false
+#print axioms FastMuon.MuonVsSVD.five_steps_from_one_not_close
+#print axioms FastMuon.MuonVsSVD.claimed_efficiency_false
+#print axioms FastMuon.MuonVsSVD.ns_vs_svd
+#print axioms FastMuon.MuonVsSVD.ht_vs_svd
+#print axioms FastMuon.Separation.ns5_spiked_kappa
+#print axioms FastMuon.Separation.ht_spiked_kappa
+#print axioms FastMuon.OptimalTail.certified_ratio_le
+#print axioms FastMuon.OptimalTail.certified_ratio_opt
+#print axioms FastMuon.NSMatrix.nsStep_norm_le
+#print axioms FastMuon.NSMatrix.muon_norm_le
+#print axioms FastMuon.MatrixFacts.norm_aeval_le
+#print axioms FastMuon.MatrixFacts.l2_opNorm_le_frobNorm
+#print axioms FastMuon.Polish.cubicStep_norm_le_one
+#print axioms FastMuon.Polish.polished_ht_norm_le_one
+#print axioms FastMuon.Polish.polished_ht_norm_le_one_robust

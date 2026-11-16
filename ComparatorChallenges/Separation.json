@@ -1,0 +1,13 @@
+{
+  "challenge_module": "ComparatorChallenges.Separation",
+  "solution_module": "FastMuon.Separation",
+  "theorem_names": [
+    "FastMuon.Separation.ns5_spiked_kappa"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

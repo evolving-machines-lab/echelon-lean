@@ -1,0 +1,26 @@
+name = "FastMuon"
+version = "0.1.0"
+defaultTargets = ["FastMuon", "Pilot"]
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0"
+
+[[lean_lib]]
+name = "FastMuon"
+
+# Pilot result cited in the report (Section "Pilot"); imports only Mathlib.
+[[lean_lib]]
+name = "Pilot"
+globs = ["Pilot.+"]
+
+# `lake comparator` challenges (statements with `sorry`, Mathlib-only imports); see COMPARATOR.md.
+# Not a default target: `lake build` builds `FastMuon` and `Pilot` only.
+[[lean_lib]]
+name = "ComparatorChallenges"
+globs = ["ComparatorChallenges.+"]

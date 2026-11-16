@@ -1,0 +1,13 @@
+{
+  "challenge_module": "ComparatorChallenges.HeadTail",
+  "solution_module": "FastMuon.HeadTail",
+  "theorem_names": [
+    "FastMuon.HeadTail.htDir_norm_le_sqrt_two"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

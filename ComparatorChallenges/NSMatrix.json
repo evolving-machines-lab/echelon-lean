@@ -1,0 +1,13 @@
+{
+  "challenge_module": "ComparatorChallenges.NSMatrix",
+  "solution_module": "FastMuon.NSMatrix",
+  "theorem_names": [
+    "FastMuon.NSMatrix.muon_norm_le"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "challenge_module": "ComparatorChallenges.Spectral",
+  "solution_module": "FastMuon.Spectral",
+  "theorem_names": [
+    "FastMuon.Spectral.ht_muon_rate"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}
